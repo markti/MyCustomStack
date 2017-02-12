@@ -12,3 +12,7 @@ supports    "windows"
 
 
 
+
+
+
+depends "opsworks_psremoting"
