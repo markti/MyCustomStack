@@ -2,7 +2,7 @@ require "chefspec"
 
 
 
-describe "web_server::setup" do
+describe "opsworks_iis::default" do
 
   before do
 
@@ -26,18 +26,6 @@ describe "web_server::setup" do
 
   end
 
-  
-  context "Webserver setup lifecycle event" do
 
-    it "includes IIS" do
-
-      expect(chef_run).to include_recipe("opsworks_psremoting")
-
-    end
-
-
-  end
-
-  
 
 end
